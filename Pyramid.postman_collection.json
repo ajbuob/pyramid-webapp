@@ -11,7 +11,21 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "localhost:8080/pyramid/banana?displayResultMap=true",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pyramid",
+						"banana"
+					],
+					"query": [
+						{
+							"key": "displayResultMap",
+							"value": "true"
+						}
+					]
 				}
 			},
 			"response": []
