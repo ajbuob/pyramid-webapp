@@ -60,7 +60,6 @@ public class PyramidController {
             return new ResponseEntity<>(pyramidQueryResponse, HttpStatus.BAD_REQUEST);
         } catch (Exception e) {
             logger.error("An unexpected exception occurred - message", e.getMessage());
-            e.printStackTrace();
             return new ResponseEntity<>(pyramidQueryResponse, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
