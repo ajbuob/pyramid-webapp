@@ -52,6 +52,7 @@ public class PyramidController {
                 integerToCharacterMap = pyramidDto.getIntegerToCharacterMap();
                 pyramidQueryResponse.setIntegerToCharacterMap(integerToCharacterMap);
             }
+            logger.debug("RESPONSE - word: {} isPyramidWord: {}", word, isPyramidWord);
             return new ResponseEntity<>(pyramidQueryResponse, HttpStatus.OK);
 
         } catch (InvalidWordException iwe) {
