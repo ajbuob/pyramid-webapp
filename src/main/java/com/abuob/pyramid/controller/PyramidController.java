@@ -47,8 +47,6 @@ public class PyramidController {
             isPyramidWord = pyramidDto.isPyramidWord();
             pyramidQueryResponse.setPyramidWord(isPyramidWord);
 
-            System.out.println("*******isDisplayResultMap" + isDisplayResultMap);
-
             //Populate response Map for pyramid word if user requests it
             if (isPyramidWord && isDisplayResultMap) {
                 integerToCharacterMap = pyramidDto.getIntegerToCharacterMap();
