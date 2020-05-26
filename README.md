@@ -46,3 +46,7 @@ OR
 
 500 (Internal Server Error)
 
+## NOTES
+* Included the exported Postman collection file (Pyramid.postman_collection.json) in the projects root directory which can also be used for any integration testing. 
+
+
